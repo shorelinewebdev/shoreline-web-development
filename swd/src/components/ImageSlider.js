@@ -26,8 +26,9 @@ const ImageSlider = ({slides}) => {
         {SliderData.map((slide, index)=> {
         return(
         <div className={index === current ? 'opacity-1 duration-1000' : 'opacity-0 duration-1000'} key={index} >
-            {index === current && (<video  muted autoPlay loop> <source src={slide.video} type="video/mp4"></source> </video>)}
             {index === current && (<img src={slide.image}></img>)}
+            
+            {index === current && (<video  muted autoPlay loop> <source src={slide.video} type="video/mp4"></source> </video>)}
             
             
             </div>

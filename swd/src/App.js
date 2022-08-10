@@ -2,6 +2,7 @@ import React from "react"
 import Landing from "./components/landing";
 import Menu from "./components/menu"
 
+
 function App() {
   const [menuActive, setMenuActive] = React.useState(false)
 
