@@ -11,7 +11,7 @@ function App() {
   }
 
     return(
-        <div className="font-main">
+        <div className="font-main overflow-x-hidden">
           {menuActive ? <Menu toggle ={toggleMenu} /> : <Landing  toggle ={toggleMenu}/>}
           
         </div>

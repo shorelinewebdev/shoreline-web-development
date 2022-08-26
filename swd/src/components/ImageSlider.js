@@ -22,24 +22,29 @@ const ImageSlider = ({slides}) => {
     }
 
   return (
-    <div >
+    <div className='overflow-x-hidden' >
+        <div className=' overflow-hidden'>
         {SliderData.map((slide, index)=> {
         return(
         <div className={index === current ? 'opacity-1 duration-1000' : 'opacity-0 duration-1000'} key={index} >
-            {index === current && (<img src={slide.image}></img>)}
+            {index === current && (<img  src={slide.image}></img>)}
             
-            {index === current && (<video  muted autoPlay loop> <source src={slide.video} type="video/mp4"></source> </video>)}
+            {index === current && (<video  muted autoPlay loop playsInline> <source src={slide.video} type="video/mp4"></source> </video>)}
             
             
             </div>
         )
     })}
+
+        </div>
+       
+
     <div className='flex justify-between'>
-        <div>
+        <div className='px-5'>
             <p>Name</p>
             <p>www.example.com</p>
         </div>
-        <div className='flex flex-row'>
+        <div className='flex flex-row px-5'>
             <img src={Arrow1} onClick={prevSlide}  ></img>
             <img src={Arrow2} onClick={nextSlide}  ></img>
         </div>

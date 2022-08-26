@@ -1,10 +1,13 @@
 import Logow from "../images/logow.png"
 import Xpic from "../images/x.png"
 import { motion, AnimatePresence } from "framer-motion"
+import { isMobile } from "react-device-detect"
+import {Link} from 'react-scroll'
+
 export default function Menu(props){
     return(
         <AnimatePresence>
-            <motion.div className="h-[100vh] w-[100vw] bg-off-black p-5 relative "
+            <motion.div className=" h-[100vh] md:w-[100vw] bg-off-black p-5 relative "
          initial={{ opacity: 0 }}
          animate={{ opacity: 1 }}
          exit={{ opacity: 0 }}
@@ -15,17 +18,10 @@ export default function Menu(props){
                 <motion.img   onClick={props.toggle} alt='x' src={Xpic} className='cursor-pointer w-[35px]'></motion.img>
             </div>
 
-            <div className="flex flex-row justify-start mt-20">
+            <div className="flex flex-col lg:flex-row justify-center mt-20">
 
-                <nav className="flex-col px-20 mr-60">
-                    <h3 className="text-[100px] text-white cursor-pointer">Work</h3>
-                    <h3 className="text-[100px] text-white  cursor-pointer" >About</h3>
-                    <h3 className="text-[100px] text-white  cursor-pointer">Services</h3>
-                </nav>
-
-                <div className="border-l-[1px] min-h-[450px] max-h-[650px] "></div>
-
-                <div className="flex flex-col px-40 mx-40 mt-10">
+                
+                <div className="flex flex-col  text-center">
 
                     <h2 className="text-white text-[60px]">Contact</h2>
 
