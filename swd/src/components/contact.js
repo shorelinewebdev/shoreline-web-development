@@ -3,7 +3,7 @@
 export default function Contact(){
     return(
         <div>
-            <div className="w-[100vw]  bg-off-black pb-20">
+            <div className="w-[100vw]  bg-off-black py-20">
                     <div className="flex flex-col justify-start mx-10 md:mx-20  mb-20 ">
                         <hr className="bg-white border-white h-[1px] w-[100%] "></hr>
                         <h2 className="text-[50px] text-white">Get Started</h2>

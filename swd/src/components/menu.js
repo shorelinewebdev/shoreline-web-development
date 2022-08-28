@@ -37,7 +37,7 @@ export default function Menu(props){
 
                     <div className="mb-3">
                         <p className="text-[#777777] text-[20px]">Location</p>
-                        <p className="text-white text-[20px]">Vancouver, Canada</p>
+                        <p className="text-white text-[20px]">Toronto, Canada</p>
                     </div>
 
                 </div>

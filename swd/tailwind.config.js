@@ -30,6 +30,10 @@ module.exports = {
         'slideshow2': 'slideshow2 18s linear infinite',
         'popup-spin': 'rotation 4s infinite linear',
       },
+      backgroundImage: {
+        'main': "url('./images/waves.jpg')",
+        'mb': "url('./images/mbbg.jpg')",
+      },
     },
     keyframes: {
       slideshow: {

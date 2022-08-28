@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Reel2(){
     return(
-        <div className="marquee">
+        <div className="marquee mb-10">
         <div className="track2">
-          <div className="content">&nbsp;Infinite Marquee with long sentence Infinite Marquee with long sentence Infinite Marquee with long sentence Infinite Marquee with long sentence Infinite Marquee with long sentence</div>
+          <div className="text-[40px] md:text-[50px] lg:text-[80px] content ">NFT ICO ERC-20 Smart-Contracts Ethereum MetaMask Wallet Mint Exchange Dapp NFT ICO ERC-20 Smart-Contracts Ethereum MetaMask Wallet Mint Exchange Dapp</div>
         </div>
       </div>
     )

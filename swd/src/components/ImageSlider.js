@@ -9,7 +9,8 @@ const ImageSlider = ({slides}) => {
     const [current, setCurrent] = React.useState(0)
     const length = slides.length
 
-    const nextSlide = () => {
+    
+      const nextSlide = () => {
         setCurrent(current === length -1 ? 0 : current + 1)
     }
 
@@ -21,36 +22,61 @@ const ImageSlider = ({slides}) => {
         return null
     }
 
+ 
+
   return (
-    <div className='overflow-x-hidden' >
-        <div className=' overflow-hidden'>
+    <div className='overflow-x-hidden mt-10 md:mt-0 h-[100%]' >
+
+        <div className=' overflow-hidden h-[100%] md:h-[100vh] mb-20 md:mb-0'>
         {SliderData.map((slide, index)=> {
         return(
-        <div className={index === current ? 'opacity-1 duration-1000' : 'opacity-0 duration-1000'} key={index} >
-            {index === current && (<img  src={slide.image}></img>)}
+        <div className={index === current ? 'opacity-1 duration-1000 ' : 'opacity-0 duration-1000'} key={index} >
+            
             
             {index === current && (<video  muted autoPlay loop playsInline> <source src={slide.video} type="video/mp4"></source> </video>)}
             
             
             </div>
         )
-    })}
+         })}
 
         </div>
        
 
-    <div className='flex justify-between'>
+    <div className='flex justify-between '>
         <div className='px-5'>
-            <p>Name</p>
-            <p>www.example.com</p>
+        {SliderData.map((slide, index)=> {
+    return(
+    <div key={index} >
+        
+        
+        {index === current && (<p>{slide.name}</p>)}
+        
+        
+        </div>
+    )
+     })}
+            {SliderData.map((slide, index)=> {
+    return(
+    <div key={index} >
+        
+        
+        {index === current && (<p>{slide.desc}</p>)}
+        
+        
+        </div>
+    )
+     })}
         </div>
         <div className='flex flex-row px-5'>
             <img src={Arrow1} onClick={prevSlide}  ></img>
             <img src={Arrow2} onClick={nextSlide}  ></img>
         </div>
+       
     </div>
     </div>
   )
 }
 
 export default ImageSlider
+

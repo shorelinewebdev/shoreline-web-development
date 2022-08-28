@@ -64,7 +64,7 @@
     position: relative;
     width: 100vw;
     max-width: 100%;
-    height: 150px;
+    height: 120px;
     overflow-x: hidden;
     font-size: 100px;
   }
@@ -150,4 +150,11 @@
   .hover-underline-animation3:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  .bgmain {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }

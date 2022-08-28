@@ -18,7 +18,7 @@ export default function Services(){
 
     return(
         <div id="services">
-            <div className="flex flex-col justify-start mx-10 md:mx-20 mb-10 ">
+            <div className="flex flex-col justify-start mx-10 md:mx-20 my-10 ">
                 <hr className="bg-black border-black h-[1px] w-[100%] "></hr>
                 <h2 className="text-[55px]">Services</h2>
             </div>
@@ -27,7 +27,7 @@ export default function Services(){
             
             
             <div className="flex justify-center">
-                     <div className="flex flex-col items-center md:justify-between md:flex  md:flex-row w-[80%] ">
+                     <div className="flex flex-col items-center md:justify-between mb-10 md:mb-0 md:flex  md:flex-row w-[80%] ">
 
                         <div className={isMobile? "flip-cardm   ":"flip-card mx-0 md:mx-5 "} >
                             <div className="flip-card-inner" >
