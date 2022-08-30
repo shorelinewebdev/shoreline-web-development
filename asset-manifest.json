@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/swd/static/css/main.04442727.css",
-    "main.js": "/swd/static/js/main.473a589e.js",
-    "static/js/787.96949235.chunk.js": "/swd/static/js/787.96949235.chunk.js",
-    "static/media/out.mp4": "/swd/static/media/out.f6fe6543b86e3aa865bc.mp4",
-    "static/media/novavid.mp4": "/swd/static/media/novavid.cc8cc282f5929d9d7cb6.mp4",
-    "static/media/tokenvid.mp4": "/swd/static/media/tokenvid.e36d294865d3667dc37d.mp4",
-    "static/media/Card 1.png": "/swd/static/media/Card 1.131d7865ba10a622c6ad.png",
-    "static/media/Card1Back.png": "/swd/static/media/Card1Back.00f64d529680ddac8559.png",
-    "static/media/Card3.png": "/swd/static/media/Card3.09c5751c3cfa42892315.png",
-    "static/media/Card3Back.png": "/swd/static/media/Card3Back.fc0c99f3d78b3e0b2bb0.png",
-    "static/media/Card 2.png": "/swd/static/media/Card 2.381c27f5ff855fb8ef65.png",
-    "static/media/Card2Back.png": "/swd/static/media/Card2Back.1c348b71fa24848922b6.png",
-    "static/media/agpic.jpg": "/swd/static/media/agpic.ba93b5623b032b36a102.jpg",
-    "index.html": "/swd/index.html",
-    "main.04442727.css.map": "/swd/static/css/main.04442727.css.map",
-    "main.473a589e.js.map": "/swd/static/js/main.473a589e.js.map",
-    "787.96949235.chunk.js.map": "/swd/static/js/787.96949235.chunk.js.map"
+    "main.css": "/shoreline-web-development/static/css/main.04442727.css",
+    "main.js": "/shoreline-web-development/static/js/main.c81a799f.js",
+    "static/js/787.96949235.chunk.js": "/shoreline-web-development/static/js/787.96949235.chunk.js",
+    "static/media/out.mp4": "/shoreline-web-development/static/media/out.f6fe6543b86e3aa865bc.mp4",
+    "static/media/novavid.mp4": "/shoreline-web-development/static/media/novavid.cc8cc282f5929d9d7cb6.mp4",
+    "static/media/tokenvid.mp4": "/shoreline-web-development/static/media/tokenvid.e36d294865d3667dc37d.mp4",
+    "static/media/Card 1.png": "/shoreline-web-development/static/media/Card 1.131d7865ba10a622c6ad.png",
+    "static/media/Card1Back.png": "/shoreline-web-development/static/media/Card1Back.00f64d529680ddac8559.png",
+    "static/media/Card3.png": "/shoreline-web-development/static/media/Card3.09c5751c3cfa42892315.png",
+    "static/media/Card3Back.png": "/shoreline-web-development/static/media/Card3Back.fc0c99f3d78b3e0b2bb0.png",
+    "static/media/Card 2.png": "/shoreline-web-development/static/media/Card 2.381c27f5ff855fb8ef65.png",
+    "static/media/Card2Back.png": "/shoreline-web-development/static/media/Card2Back.1c348b71fa24848922b6.png",
+    "static/media/agpic.jpg": "/shoreline-web-development/static/media/agpic.ba93b5623b032b36a102.jpg",
+    "index.html": "/shoreline-web-development/index.html",
+    "main.04442727.css.map": "/shoreline-web-development/static/css/main.04442727.css.map",
+    "main.c81a799f.js.map": "/shoreline-web-development/static/js/main.c81a799f.js.map",
+    "787.96949235.chunk.js.map": "/shoreline-web-development/static/js/787.96949235.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04442727.css",
-    "static/js/main.473a589e.js"
+    "static/js/main.c81a799f.js"
   ]
 }
