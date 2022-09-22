@@ -37,13 +37,13 @@ export default function About(){
 
                         <div className="text-white w-[100%] md:w-[40%] mx-10 md:mx-0">
                                 <div className="w-[250px] h-[250px]"><img className="h-[250px] w-[100%] object-cover" src={agpic}></img></div>
-                                    <h2 className="mt-5 text-[25px] ">Alexander Gifford</h2>
+                                    <h2 className="mt-5 text-[27px] ">Alexander Gifford</h2>
                                     <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
                         </div>
 
                         <div className="text-white w-[100%] md:w-[40%] mx-10 md:mx-0 mt-20 md:mt-0">
                                 <div className="w-[250px] h-[250px]"><img className="h-[250px] w-[100%] object-cover" src={agpic}></img></div>
-                                    <h2 className="mt-5 text-[25px] ">Alexander Gifford</h2>
+                                    <h2 className="mt-5 text-[27px] ">Matthew Dunkerly</h2>
                                     <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
                         </div>
 
