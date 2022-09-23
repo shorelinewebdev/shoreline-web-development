@@ -24,7 +24,7 @@ export default function Landing(props){
 
                         <div className="flex flex-row justify-between p-5 items-center">
                             <h1 className="font-main text-[20px] md:text-[30px]">Shoreline Web Developpment</h1>
-                            <img alt="logo-black" onClick={props.toggle}  src={LogoB} className="w-[45px] h-[36px] cursor-pointer "></img>
+                            <img alt="logo-black" onClick={props.toggle}  src={LogoB} className="w-[45px] h-[36px] cursor-pointer animate-pulse "></img>
                         </div>
                     <div>
                         <ImageSlider slides={SliderData}/>

@@ -25,7 +25,7 @@ const ImageSlider = ({slides}) => {
  
 
   return (
-    <div className='overflow-x-hidden mt-10 md:mt-0 h-[100%]' >
+    <div className='overflow-x-hidden mt-20 mb-20 md:mt-0 md:mb-0 h-[100%]' >
 
         <div className=' overflow-hidden h-[100%] md:h-[100vh] mb-20 md:mb-0'>
         {SliderData.map((slide, index)=> {
@@ -43,37 +43,37 @@ const ImageSlider = ({slides}) => {
         </div>
        
 
-    <div className='flex justify-between '>
-        <div className='px-5'>
-        {SliderData.map((slide, index)=> {
-    return(
-    <div key={index} >
-        
-        
-        {index === current && (<p>{slide.name}</p>)}
-        
-        
-        </div>
-    )
-     })}
+    <div className='flex justify-between  '>
+            <div className='px-5'>
             {SliderData.map((slide, index)=> {
-    return(
-    <div key={index} >
-        
-        
-        {index === current && (<p>{slide.desc}</p>)}
-        
-        
-        </div>
-    )
-     })}
+        return(
+        <div key={index} >
+            
+            
+            {index === current && (<p>{slide.name}</p>)}
+            
+            
+            </div>
+        )
+        })}
+                {SliderData.map((slide, index)=> {
+        return(
+        <div key={index} >
+            
+            
+            {index === current && (<p>{slide.desc}</p>)}
+            
+            
+            </div>
+            )
+            })}
         </div>
         <div className='flex flex-row px-5'>
             <img src={Arrow1} onClick={prevSlide}  ></img>
             <img src={Arrow2} onClick={nextSlide}  ></img>
         </div>
        
-    </div>
+     </div>
     </div>
   )
 }
