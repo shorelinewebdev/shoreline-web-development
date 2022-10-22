@@ -1,6 +1,6 @@
 {
   "name": "swd",
-  "homepage": "https://www.shorelineweb.dev/",
+  "homepage": "https://www.shorelineweb.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
